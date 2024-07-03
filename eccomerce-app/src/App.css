@@ -1,0 +1,64 @@
+
+.menu-bar{
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+.menu-bar-menu-section{
+  max-width: 50%;
+  border-radius: 10px;
+  border: .1rem solid #ccc;
+}
+.menu-bar-menus li{
+  padding: .2rem;
+
+}
+
+.menu-bar-menus li:hover{
+  color: #ff7300;
+  text-shadow: 1px black;
+  max-width: max-content;
+  cursor: pointer;
+}
+.banners{
+  overflow: hidden;
+  width: 70%;
+  height: 50vh;
+  position: relative;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+.banners p{
+  transform: scale(3);
+}
+.slides{
+  display: flex;
+  transition: transform .5s ease-in-out;
+}
+.slides div{
+  
+  flex-shrink: 0;
+}
+.banners img{
+  width: 100%;
+  display: block;
+}
+main, footer{
+  max-width: 80vw;
+  margin: 0 auto;
+}
+.category:hover{
+  box-shadow: 2px 2px 4px 1px #aaa;
+  cursor: pointer;
+
+}
+.flash-sale-product:hover, .jst4u-product:hover{
+  box-shadow: 5px 5px 3px 3px #aaa;
+
+}
+footer ul li{
+  cursor: pointer;
+}
+footer ul li:hover{
+  color: #888;
+}
